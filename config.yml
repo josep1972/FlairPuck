@@ -1,0 +1,5 @@
+name: 'Insteon Fan'
+packageKey: 'insteonFan'
+permissions:
+  lan: {}
+  discovery: {}
