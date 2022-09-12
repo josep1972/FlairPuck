@@ -1,5 +1,5 @@
 # Flair Puck Profile
-name: insteonFan.v1
+name: flairPuck.v1
 components:
 - id: main
   capabilities:
@@ -10,8 +10,6 @@ components:
   - id: thermostatCoolingSetpoint
     version: 1    
   - id: thermostatHeatingSetpoint
-    version: 1    
-  - id: thermostatSetpoint
     version: 1    
   - id: thermostatMode
     version: 1    
@@ -28,7 +26,7 @@ metadata:
 preferences:
    - title: "API Endpoint"
      description: "Flair API Endpoint"
-     name: puckId
+     name: apiEndpoint
      required: true
      preferenceType: string
      definition: 

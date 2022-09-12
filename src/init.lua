@@ -27,10 +27,10 @@ local driver =
       capability_handlers = {
         -- Setpoints
         [caps.thermostatCoolingSetpoint.ID] = {
-           [caps.thermostatCoolingSetpoint.commands.setCoolingSetpoint.NAME]  = commands.setSetpoint
+           [caps.thermostatCoolingSetpoint.commands.setCoolingSetpoint.NAME]  = commands.setThermostatSetpoint
         },
         [caps.thermostatHeatingSetpoint.ID] = {
-           [caps.thermostatHeatingSetpoint.commands.setHeatingSetpoint.NAME]  = commands.setSetpoint
+           [caps.thermostatHeatingSetpoint.commands.setHeatingSetpoint.NAME]  = commands.setThermostatSetpoint
         },
         -- Mode
         [caps.thermostatMode.ID] = {
