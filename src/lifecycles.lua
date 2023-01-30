@@ -2,7 +2,7 @@ local command_handler = require('commands')
 local log             = require('log')
 local json            = require('dkjson')
 
-local apiEndpoint = "http://192.168.1.24:6969"
+local apiEndpoint = "http://192.168.1.99:100"
 local lifecycle_handler = {}
 function lifecycle_handler.init(driver, device)
 
